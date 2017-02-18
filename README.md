@@ -1,10 +1,12 @@
 # React-Webpack-Bootstrap Boilerplate
+Start any web project with ease by using this React, Webpack, Bootstrap, and Babel boilerplate! With all the latest technologies already installed and perfectly configured, you can start developing your project without the hassle of getting it set up. 
+
 
 ## Features
 - Webpack building system
 - Babel transpiler integration
 - Webpack Dev Server with React Hot Loader
-- React integration with prebuilt-filestructure and templates
+- Prebuilt filestructure and React templates
 - Bootstrap 3
 
 ## Webpack Loaders
