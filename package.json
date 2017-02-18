@@ -1,0 +1,44 @@
+{
+  "scripts": {
+    "build": "./node_modules/.bin/webpack",
+    "dev": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot"
+  },
+  "author": "Peter Cunha",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "bootstrap": "^3.3.7",
+    "css-loader": "^0.26.1",
+    "file-loader": "^0.10.0",
+    "imports-loader": "^0.7",
+    "less-loader": "^2.2.3",
+    "react": "^15.4",
+    "react-dom": "^15.4.2",
+    "style-loader": "^0.13",
+    "url-loader": "^0.5",
+    "webpack": "^2.2.1",
+    "webpack-dev-server": "^2.3.0"
+  },
+  "name": "react-bootstrap-webpack-boilerplate",
+  "description": "Start any web project with ease by using this React, Webpack, Bootstrap, and Babel boilerplate!",
+  "version": "1.0.0",
+  "main": "webpack.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/petercunha/react-bootstrap-webpack-Boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "bootstrap",
+    "webpack",
+    "babel",
+    "boilerplate"
+  ],
+  "bugs": {
+    "url": "https://github.com/petercunha/react-bootstrap-webpack-Boilerplate/issues"
+  },
+  "homepage": "https://github.com/petercunha/react-bootstrap-webpack-Boilerplate"
+}
