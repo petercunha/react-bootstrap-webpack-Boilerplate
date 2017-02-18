@@ -1,7 +1,8 @@
 {
   "scripts": {
-    "build": "./node_modules/.bin/webpack",
-    "dev": "./node_modules/.bin/webpack-dev-server --content-base app --inline --hot"
+    "build": "npm run clean && NODE_ENV=production ./node_modules/.bin/webpack",
+    "dev": "npm run clean && ./node_modules/.bin/webpack-dev-server --content-base app --inline --hot",
+    "clean": "echo Cleaning build directory... && rm -f ./app/js/*.hot-update.js ./app/js/*.hot-update.json && echo Running webpack..."
   },
   "author": "Peter Cunha",
   "license": "MIT",

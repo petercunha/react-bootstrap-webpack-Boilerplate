@@ -14,14 +14,12 @@ module.exports = {
 	devServer: {
 		publicPath: path.join(__dirname, '/app/js/')
 	},
+	devtool: debug ? "inline-sourcemap" : false,
 	plugins: debug ? [
 		// Development plugins (Edit to your liking)
-		new WriteFilePlugin(),
-		new webpack.optimize.OccurrenceOrderPlugin(),
-		new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
+		new WriteFilePlugin()
 	] : [
 		// Production plugins (Edit to your liking)
-		new WriteFilePlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),
 		new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
 	],
