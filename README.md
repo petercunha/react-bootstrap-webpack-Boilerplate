@@ -13,10 +13,15 @@
 - Babel for React and EcmaScript6
 
 ## Installing
-`npm install`
+Simply run the following commands
+```
+git clone https://github.com/petercunha/react-bootstrap-webpack-Boilerplate.git
+npm install
+```
 
 ## Running
-run `npm start` then check in your browser at http://localhost:8080
-
-## Building for production
-run `npm run build`
+```
+npm build
+npm run dev
+```
+Then check in your browser at http://localhost:8080
