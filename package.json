@@ -14,13 +14,15 @@
     "css-loader": "^0.26.1",
     "file-loader": "^0.10.0",
     "imports-loader": "^0.7",
+    "less": "^2.7.2",
     "less-loader": "^2.2.3",
     "react": "^15.4",
     "react-dom": "^15.4.2",
     "style-loader": "^0.13",
     "url-loader": "^0.5",
     "webpack": "^2.2.1",
-    "webpack-dev-server": "^2.3.0"
+    "webpack-dev-server": "^2.3.0",
+    "write-file-webpack-plugin": "^3.4.2"
   },
   "name": "react-bootstrap-webpack-boilerplate",
   "description": "Start any web project with ease by using this React, Webpack, Bootstrap, and Babel boilerplate!",

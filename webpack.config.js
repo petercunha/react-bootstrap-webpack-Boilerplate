@@ -1,18 +1,27 @@
 var debug = process.env.NODE_ENV !== "production";
 var webpack = require('webpack');
+var path = require('path');
+var WriteFilePlugin = require('write-file-webpack-plugin');
 
 module.exports = {
 	context: __dirname,
 	devtool: debug ? "inline-sourcemap" : null,
 	entry: "./resources/index",
 	output: {
-		path: __dirname + "/app/js/",
+		path: path.join(__dirname, "/app/js/"),
 		filename: "bundle.js"
 	},
+	devServer: {
+		publicPath: path.join(__dirname, '/app/js/')
+	},
 	plugins: debug ? [
+		// Development plugins (Edit to your liking)
+		new WriteFilePlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),
 		new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
 	] : [
+		// Production plugins (Edit to your liking)
+		new WriteFilePlugin(),
 		new webpack.optimize.OccurrenceOrderPlugin(),
 		new webpack.optimize.UglifyJsPlugin({ mangle: false, sourcemap: false }),
 	],
@@ -41,4 +50,3 @@ module.exports = {
 		]
 	}
 };
-
