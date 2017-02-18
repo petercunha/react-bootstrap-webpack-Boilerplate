@@ -2,7 +2,9 @@
 
 ## Features
 - Webpack building system
+- Babel transpiler integration
 - Webpack Dev Server with React Hot Loader
+- React integration with prebuilt-filestructure and templates
 - Bootstrap 3
 
 ## Webpack Loaders
@@ -10,12 +12,13 @@
 - File
 - Styles: LESS, CSS
 - Imports (shimming modules)
-- Babel for React and EcmaScript6
+- Babel for React and ES6
 
 ## Installing
-Simply run the following commands
+Don't worry about the nightmare of setting up a React project with all these components! Simply run these three lines and start developing your awesome app.
 ```
 git clone https://github.com/petercunha/react-bootstrap-webpack-Boilerplate.git
+cd react-bootstrap-webpack-Boilerplate/
 npm install
 ```
 
@@ -24,4 +27,4 @@ npm install
 npm build
 npm run dev
 ```
-Then check in your browser at http://localhost:8080
+Then navigate your browser to [localhost:8080](http://localhost:8080)
