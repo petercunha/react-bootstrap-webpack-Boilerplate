@@ -1,5 +1,5 @@
 # React-Webpack-Bootstrap Boilerplate
-Start any web project with ease by using this React, Webpack, Bootstrap, and Babel boilerplate! With all the latest technologies already installed and perfectly configured, you can start developing your project without the hassle of getting it set up. 
+Start any web project with ease by using this React, Webpack, Bootstrap, and Babel boilerplate! With all the latest technologies already installed and perfectly configured, you can easily start developing your project without the hassle of getting it set up. 
 
 
 ## Features
