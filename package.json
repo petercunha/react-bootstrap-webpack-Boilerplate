@@ -44,6 +44,6 @@
   },
   "homepage": "https://github.com/petercunha/react-bootstrap-webpack-Boilerplate",
   "dependencies": {
-    "bootstrap": "^3.3.7"
+    "bootstrap": "^4.0.0"
   }
 }
